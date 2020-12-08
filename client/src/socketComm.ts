@@ -6,7 +6,7 @@ export function createSocketComm(inParentComponent: React.Component) {
 
 
   // Make initial contact with the server.
-  const connection: WebSocket = new WebSocket("ws://localhost:8080");
+  const connection: WebSocket = new WebSocket("ws://localhost:8989");
 
 
   // Handle initial connection.
