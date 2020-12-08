@@ -1,6 +1,6 @@
 // Style imports.
 import "normalize.css";
-import "../css/main.css";
+import "./index.css";
 
 // React imports.
 import React from "react";

@@ -2,7 +2,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 
-  entry : "./src/code/main.tsx",
+  entry : "./src/index.tsx",
 
   resolve : {
     extensions : [ ".ts", ".tsx", ".js" ]
@@ -35,7 +35,7 @@ module.exports = {
   ],
 
   performance : { hints : false },
-  watch : true,
+  // watch : true,
   devtool : "source-map"
 
 };
